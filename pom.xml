@@ -22,12 +22,4 @@
         <version>1.3.5.RELEASE</version>
     </parent>
 
-    <repositories>
-        <repository>
-            <id>CN</id>
-            <name>OSChina Central</name>
-            <url>http://maven.oschina.net/content/groups/public/</url>
-        </repository>
-    </repositories>
-
 </project>
