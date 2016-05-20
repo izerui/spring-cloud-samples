@@ -9,13 +9,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Created by serv on 16/5/20.
  */
 @SpringBootApplication
-public class Application implements CommandLineRunner{
+public class ConfigClientApplication implements CommandLineRunner{
 
     @Value("${user.username}")
     String username;
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class,args);
+        SpringApplication.run(ConfigClientApplication.class,args);
     }
 
     @Override
