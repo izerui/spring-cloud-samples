@@ -13,6 +13,8 @@
         <module>config-client</module>
         <module>eureka-server</module>
         <module>eureka-client</module>
+        <module>eureka-dashboard</module>
+        <module>eureka-client-tomcat</module>
     </modules>
 
 

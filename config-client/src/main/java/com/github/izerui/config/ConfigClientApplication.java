@@ -13,6 +13,8 @@ public class ConfigClientApplication implements CommandLineRunner{
 
     @Value("${user.username}")
     String username;
+    @Value("${apply.message}")
+    String applyMessage;
 
     public static void main(String[] args) {
         SpringApplication.run(ConfigClientApplication.class,args);
@@ -21,5 +23,6 @@ public class ConfigClientApplication implements CommandLineRunner{
     @Override
     public void run(String... strings) throws Exception {
         System.out.println(username);
+        System.out.println(applyMessage);
     }
 }
